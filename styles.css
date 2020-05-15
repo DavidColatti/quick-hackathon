@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+.about{
+display:flex;
+flex-direction: column;
+align-items: flex-end;
+}
+.carole{
+    height:500px;
+    width: 100vw;
+}
+
+.contact{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+=======
 html {
 	margin: 0;
 	padding: 0;
@@ -136,3 +153,4 @@ margin-top:50px; */
 	flex-direction: row;
 	justify-content: space-evenly;
 }
+>>>>>>> f69509bb726dc3581d89cf23b62c55480eb2a90e
