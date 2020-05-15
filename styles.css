@@ -151,3 +151,13 @@ margin-top:50px; */
 	width: 100%;
 	text-align: center;
 }
+
+.about-content {
+	display: flex;
+	flex-direction: row;
+}
+
+.div-p {
+	text-align: center;
+	margin-top: 20px;
+}
