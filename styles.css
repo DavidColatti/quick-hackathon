@@ -4,23 +4,10 @@ flex-direction: column;
 align-items: flex-end;
 }
 .carole{
-    height:300px;
-    border: 1px red solid;
-/* display: flex;
-text-align: center;
-align-items:center;
-margin-top:50px; */
+    height:500px;
+    width: 100vw;
 }
-.volunteer{
-border:1px red solid;
-height:300px;
-display: flex;
-align-items: center;
-}
-.husband{
-display:flex;
-align-items: flex-end;
-}
+
 .contact{
 display: flex;
 flex-direction: row;
