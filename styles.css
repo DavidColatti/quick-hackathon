@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .about{
 display:flex;
 flex-direction: column;
@@ -13,3 +14,143 @@ display: flex;
 flex-direction: row;
 justify-content: space-evenly;
 }
+=======
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+.nav-item {
+	border: 1px solid rgba(104, 102, 102, 0.571);
+	border-radius: 5px;
+	border-width: 2px;
+	margin-right: 8px;
+}
+
+.nav-link {
+	color: rgba(66, 66, 66, 0.767);
+}
+
+.nav-link:hover {
+	color: rgb(0, 0, 0);
+}
+
+.home-page {
+	width: 100vw;
+	height: 630px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url(/images/backgroundHome.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mid-content {
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.637);
+	margin: 0 25%;
+	padding: 80px 0;
+	color: black;
+}
+
+.mid-h1 {
+	font-size: 60px;
+}
+
+.innocent {
+	padding: 50px;
+	background-color: #f8f9fa;
+}
+
+.innocent-h1 {
+	text-align: center;
+	font-size: 100px;
+}
+
+.home-bottom {
+	width: 100vw;
+	padding: 50px;
+	height: 1800px;
+}
+
+.body-img {
+	width: 600px;
+}
+
+.segment {
+	display: flex;
+	width: 100%;
+}
+
+.mid-segment {
+	margin: 200px 0;
+	flex-direction: row-reverse;
+}
+
+.body-p {
+	font-size: 25px;
+	align-self: center;
+	padding: 100px;
+}
+
+/* FOOTER */
+.footer {
+	margin-top: 100px;
+	padding-top: 30px;
+	width: 100vw;
+	height: 100px;
+	background-color: #190512;
+}
+
+.footer-h4 {
+	text-align: center;
+	padding-bottom: 30px;
+	color: white;
+}
+
+.footer-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0 25vw;
+	list-style-type: none;
+	padding-bottom: 30px;
+	background-color: #190512;
+	margin: 0;
+}
+.about {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.carole {
+	height: 300px;
+	border: 1px red solid;
+	/* display: flex;
+text-align: center;
+align-items:center;
+margin-top:50px; */
+}
+.volunteer {
+	border: 1px red solid;
+	height: 300px;
+	display: flex;
+	align-items: center;
+}
+.husband {
+	display: flex;
+	align-items: flex-end;
+}
+.contact {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+>>>>>>> f69509bb726dc3581d89cf23b62c55480eb2a90e
