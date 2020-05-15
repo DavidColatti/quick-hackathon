@@ -3,6 +3,11 @@ html {
 	padding: 0;
 }
 
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
 .nav-item {
 	border: 1px solid rgba(104, 102, 102, 0.571);
 	border-radius: 5px;
@@ -32,7 +37,7 @@ html {
 
 .mid-content {
 	text-align: center;
-	background-color: rgba(255, 255, 255, 0.445);
+	background-color: rgba(255, 255, 255, 0.637);
 	margin: 0 25%;
 	padding: 80px 0;
 	color: black;
@@ -59,7 +64,7 @@ html {
 }
 
 .body-img {
-	width: 50vw;
+	width: 600px;
 }
 
 .segment {
@@ -80,10 +85,11 @@ html {
 
 /* FOOTER */
 .footer {
+	margin-top: 100px;
 	padding-top: 30px;
 	width: 100vw;
 	height: 100px;
-	background-color: rgb(87, 2, 2);
+	background-color: #190512;
 }
 
 .footer-h4 {
@@ -99,6 +105,6 @@ html {
 	padding: 0 25vw;
 	list-style-type: none;
 	padding-bottom: 30px;
-	background-color: rgb(87, 2, 2);
+	background-color: #190512;
 	margin: 0;
 }
