@@ -1,7 +1,21 @@
 html {
 	margin: 0;
 	padding: 0;
-	border: 1px solid red;
+}
+
+.nav-item {
+	border: 1px solid rgba(104, 102, 102, 0.571);
+	border-radius: 5px;
+	border-width: 2px;
+	margin-right: 8px;
+}
+
+.nav-link {
+	color: rgba(66, 66, 66, 0.767);
+}
+
+.nav-link:hover {
+	color: rgb(0, 0, 0);
 }
 
 .home-page {
@@ -10,20 +24,27 @@ html {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	border: 1px solid red;
+	background-image: url(/images/backgroundHome.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .mid-content {
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.445);
+	background-color: rgba(255, 255, 255, 0.445);
 	margin: 0 25%;
 	padding: 80px 0;
-	border: 1px solid red;
+	color: black;
+}
+
+.mid-h1 {
+	font-size: 60px;
 }
 
 .innocent {
 	padding: 50px;
-	border: 1px solid red;
+	background-color: #f8f9fa;
 }
 
 .innocent-h1 {
@@ -32,9 +53,9 @@ html {
 }
 
 .home-bottom {
-	border: 1px solid red;
 	width: 100vw;
 	padding: 50px;
+	height: 1800px;
 }
 
 .body-img {
@@ -55,4 +76,29 @@ html {
 	font-size: 25px;
 	align-self: center;
 	padding: 100px;
+}
+
+/* FOOTER */
+.footer {
+	padding-top: 30px;
+	width: 100vw;
+	height: 100px;
+	background-color: rgb(87, 2, 2);
+}
+
+.footer-h4 {
+	text-align: center;
+	padding-bottom: 30px;
+	color: white;
+}
+
+.footer-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0 25vw;
+	list-style-type: none;
+	padding-bottom: 30px;
+	background-color: rgb(87, 2, 2);
+	margin: 0;
 }
